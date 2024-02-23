@@ -1,14 +1,14 @@
 :root {
-  --cinza: #aaa;
+  --cinza: #030303;
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
-  --branca: #fff;
+  --branca: #c202db;
   --luz: rgb(229, 255, 0);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #ff00953a 0%,#ff00ff 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(to bottom, #ff0000 0%,#000000 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
